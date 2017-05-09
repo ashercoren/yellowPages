@@ -1,0 +1,21 @@
+{
+  "name": "klarna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "npm run build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
